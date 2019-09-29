@@ -5,18 +5,28 @@ Git integration: it's pretty handy. Who knew, right?
 
 For more information about what's supported, and how to install this, [check the wiki](https://github.com/kemayo/sublime-text-git/wiki).
 
-## Install
 
-### Package Control
+## Installation
 
-The easiest way to install this is with [Package Control](http://wbond.net/sublime\_packages/package\_control).
+### By Package Control
 
- * If you just went and installed Package Control, you probably need to restart Sublime Text before doing this next bit.
- * Bring up the Command Palette (Command+Shift+p on OS X, Control+Shift+p on Linux/Windows).
- * Select "Package Control: Install Package" (it'll take a few seconds)
- * Select Git when the list appears.
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `Git` and press <kbd>Enter</kbd>
 
-Package Control will automatically keep Git up to date with the latest version.
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
+
 
 ### Basic Usage
 
